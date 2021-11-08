@@ -1,8 +1,31 @@
 .gameCard{
     padding: 20px;
     width: 50%;
+    margin: auto;
+    text-align: center;
 }
 
 img{
     width: 100%;
+}
+
+.imgHeader{
+    position: relative;
+}
+
+.imgHeader #logoImg{
+    width: 50%;
+    position: absolute;
+    left: 0px;
+}
+
+.screenshots{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screenshots img{
+    flex: 1 0 21%;
+    margin: 5px;
+    width: 48%;
 }
